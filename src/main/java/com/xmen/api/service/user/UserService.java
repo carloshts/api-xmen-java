@@ -5,7 +5,9 @@ import com.xmen.api.entity.user.User;
 import com.xmen.api.repository.user.UserRepository;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserService {
     private final UserRepository userRepository;
 
