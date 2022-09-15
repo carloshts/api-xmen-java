@@ -1,10 +1,12 @@
 package com.xmen.api.dto;
 
+import java.util.List;
+
 public class ReturnDTO {
     private Long code;
     private String message;
     private Object object;
-    
+    private List<Object> objects;
     public Long getCode() {
         return code;
     }
@@ -23,5 +25,6 @@ public class ReturnDTO {
     public void setObject(Object object) {
         this.object = object;
     }
+    
     
 }
